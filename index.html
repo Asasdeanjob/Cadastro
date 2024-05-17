@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cadastro</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    
+    <a href="index.html"><h2>Cadastro</h2></a>
+    <a href="visitantes.html"><h2>Visitantes</h2></a>
+    
+    
+  </header>
+
+  <h1>Cadastre-se</h1>
+
+  <form>
+    
+    <label for="nome">Nome e Sobrenome:<p>*</p></label>
+    <input class="input-padrao" type="text" id="nome" required>
+
+    <label for="nasc">Data de Nascimento:<p>*</p></label>
+    <input class="input-padrao" type="date" id="nasc" required>
+
+    <label for="email">E-mail:</label>
+    <input class="input-padrao" type="email" id="email">
+
+    <label for="tel">Telefone:</label>
+    <input class="input-padrao" type="tel" id="tel">
+
+    <fieldset>
+
+      <legend>Com qual gênero você prefere ser identificado(a)?<p>*</p></legend>
+
+      <label for="radio-M"><input type="radio" name="genero" value="M" id="radio-M">Masculino</label>
+
+      <label for="radio-F"><input type="radio" name="genero" value="F" id="radio-F">Feminino</label>
+
+      <label for="radio-N"><input type="radio" name="genero" value="N" id="radio-N">Não Binario</label>
+
+    </fieldset>
+
+    <label for="bairro">Bairro:<p>*</p></label>
+    <input class="input-padrao" type="text" id="bairo" required>
+
+    <input type="submit" value="Enviar" id="env">
+    
+  </form>
+  
+</body>
+
+</html>
