@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Cadastro</title>
+  <title>Entrada</title>
   <link href="style.css" rel="stylesheet">
   <link href="reset.css" rel="stylesheet">
 </head>
@@ -13,13 +13,14 @@
 
   <header>
     
-    <a href="index.html"><h2>Cadastro</h2></a>
+    <a href="index.html"><h2>Entrada</h2></a>
+    <a href="saida.html"><h2>Saida</h2></a>
     <a href="visitantes.html"><h2>Visitantes</h2></a>
     
     
   </header>
 
-  <h1>Cadastre-se</h1>
+  <h1>Entrada</h1>
 
   <form>
     
@@ -49,6 +50,9 @@
 
     <label for="bairro">Bairro:<p>*</p></label>
     <input class="input-padrao" type="text" id="bairo" required>
+
+    <label for="entrada">Horario de entrada:<p>*</p></label>
+    <input class="input-padrao" type="time" id="entrada" required>
 
     <input type="submit" value="Enviar" id="env">
     

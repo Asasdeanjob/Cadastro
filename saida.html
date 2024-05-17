@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Saida</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <a href="index.html"><h2>Entrada</h2></a>
+    <a href="saida.html"><h2>Saida</h2></a>
+    <a href="visitantes.html"><h2>Visitantes</h2></a>
+
+
+  </header>
+
+  <h1>Saida</h1>
+
+  <form>
+    
+    <label for="nomeS">Nome e Sobrenome:<p>*</p></label>
+    <input class="input-padrao" type="text" id="nomeS" required>
+
+    <label for="saida">Horario de saida:<p>*</p></label>
+    <input class="input-padrao" type="time" id="saida" required>
+
+    <label for="mens">Mensagem:<p>*</p></label>
+    <textarea class="input-padrao" rows="5" id="mens"></textarea>
+
+    <input type="submit" value="Enviar" id="env" >
+    
+  </form>
