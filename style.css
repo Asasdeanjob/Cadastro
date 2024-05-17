@@ -37,6 +37,7 @@ form label, form legend{
   padding: 10px 25px;
   width: 500px;
   height: 10px;
+  background-color: white;
 }
 
 p{
